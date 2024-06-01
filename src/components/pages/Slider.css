@@ -1,0 +1,26 @@
+.carousel .thumbs {
+    display:flex;
+    justify-content: baseline;
+    margin: 0;
+}
+
+.frame {
+    margin-left: 0px;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    top:490px;
+    transform: translateY(-50);
+    /* left:0%;
+    padding:0%; */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color:#f5f5f5;
+}
+
+.defil{
+    width: 70%;
+    margin-left: 0px;
+}

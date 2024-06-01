@@ -1,0 +1,46 @@
+.panel {
+    display: flex;
+    flex: grid;
+    background-color: #C54839;
+    /* margin-bottom: 10px; */
+}
+
+.background {
+    background-color: brown;
+    color: #F5f5f5;
+}
+
+.title {
+    text-align: center;
+    background-color: #c54839;
+    color: #F5f5f5;
+    margin-bottom: 0px;
+}
+
+/* .general {
+    padding-top: 10%;
+    background-color: #C54839;
+    color: #F5f5f5;
+    text-align: center;
+} */
+
+.underline {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-color: #C54839;
+    color: #F5f5f5;
+    text-align: center;
+}
+
+/* .essai {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.window{
+    width: 300px;
+    height: 200px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover; 
+}

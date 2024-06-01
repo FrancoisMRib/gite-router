@@ -1,0 +1,54 @@
+.title {
+    text-align: center;
+    background-color: #C54839;
+    color: azure;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.general {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.corpus {
+    background-color: #C54839;
+    color: azure;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.list {
+    text-align: left;
+}
+
+.button {
+    width: 380px;
+    height: 70px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 90%;
+    color: brown;
+}
+/* .essai {
+    background-color: aqua;
+} */
+
+.carton{
+    background-color: #f5f5f5;
+    color: black;
+    margin-left: 15px;
+    /* text-align: center; */
+}
+
+.presentation{
+    border-radius: 30%;
+    stroke: #f5f5f5;
+    background-color: #f5f5f5;
+    color: black;
+    margin: 15px;
+    padding: 20px;
+    font-size: small;
+}

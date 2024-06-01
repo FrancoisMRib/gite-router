@@ -1,0 +1,12 @@
+.livre {
+    width: 100%;
+}
+
+.panel{
+    display: flex;
+    position: grid;
+}
+
+.carton{
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,47 @@
+.Footer {
+    background-color: #5e0011;
+    /* position: fixed; */
+    bottom: 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footerPipe {
+    border-left: 1.5px solid white;
+    height: 50px;
+}
+
+#footerContactInfo {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    background-color: #5e0011;
+    /* font-size: 11px;
+    height: 25px;
+    padding-left: var(--footerPadding);
+    padding-right: var(--footerPadding); */
+}
+
+#footerOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e0011;
+    font-size: 9px;
+    height: 70px;
+    padding-top: 2px;
+    /* padding-left: var(--footerPadding);
+    padding-right: var(--footerPadding); */
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10px;
+}
+
+#footerCopyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e0011;
+    font-size: 6px;
+    height: 12px;
+}

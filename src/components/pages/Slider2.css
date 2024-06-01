@@ -1,0 +1,38 @@
+.carousel .thumbs {
+    display:flex;
+    justify-content: baseline;
+    margin: 0;
+}
+
+.frame {
+    border-radius: 50%;
+    padding-left: 25px;
+    padding-top: 25px;
+
+    /* width: 400px;
+    height: 400px; */
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    top:490px;
+    transform: translateY(-50);
+    /* left:0%;
+    padding:0%; */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color:#f5f5f5;
+}
+
+.defil{
+    width: 800px;
+    border-radius: 30%;
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    /* padding-right: 10px; */
+}
+
+.reduit{
+    width: 100%;
+}
