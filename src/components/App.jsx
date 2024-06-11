@@ -8,6 +8,7 @@ import { DecouvGite } from './pages/DecouvGite';
 import { Contact } from './pages/Contact';
 import { Localisation } from './pages/Localisation';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Bournazel } from './pages/Bournazel';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path:"/livredor",
     element: <LivreDor/>
+  },
+  {
+    path:"/bournazel",
+    element: <Bournazel/>
   }
 ])
 

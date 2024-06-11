@@ -19,7 +19,7 @@ export function DecReg() {
             </div>
             <br/>
             <div className='panel'>
-                <img src="src/components/img/bournazel.jpg" alt="Le château de Bournazel" className='window'/>
+                <a href="bournazel"><img src="src/components/img/bournazel.jpg" alt="Le château de Bournazel" className='window'/></a>
                 <img src={thermes} alt="Les thermes de Cransac" className='window'/>
                 <img src="src/components/img/Rodez.jpg" alt="La ville de Rodez" className='window'/>
                 <img src="src/components/img/Belcastel.png" alt="Le village de Belcastel" className='window'/>

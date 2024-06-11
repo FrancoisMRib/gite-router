@@ -11,10 +11,10 @@ export function Accueil() {
             <Header/>
             <h2 className="entree">Bienvenue au Gîte la Vigne !</h2>
             <div className='accueil' style={{
-            display:'flex',
-            flex:'row'
-        }}>
-            <Slider/>
+                    display:'flex',
+                    flex:'row'
+                }}>
+                    <Slider/>
             {/* <div>
                 <img src="src/components/img/IMG_20190803_162256.jpg" alt="" className='carrousel'/>
                 <p>les vignes auxquelles le gîte doit son nom</p>

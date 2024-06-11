@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    background-color: #c54839;
+    color: #F5f5f5;
+    margin-bottom: 0px;
+}
+
+.office {
+    display: flex;
+    flex: row;
+}
+
+.photo {
+    width: 600px;
+}
+
+.descriptif {
+    width: 40%;
+}

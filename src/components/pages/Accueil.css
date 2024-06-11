@@ -4,7 +4,7 @@
     width: 180px;
     height: 120px;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     align-items: center;
     border-radius: 60%;
     margin-left: 90px;
@@ -32,6 +32,9 @@
 .text{
     padding-top: 50px;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
 }
 
 .accueil{
@@ -39,8 +42,8 @@
     width: 100%;
 }
 
-.carton{
-    align-items: center;    
+.carton {
+    
     background-color: #f5f5f5;
     font-family: "Indenture English Penman";
     padding-right: 30px;
