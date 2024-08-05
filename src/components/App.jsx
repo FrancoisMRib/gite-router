@@ -9,6 +9,7 @@ import { Contact } from './pages/Contact';
 import { Localisation } from './pages/Localisation';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Bournazel } from './pages/Bournazel';
+import { Cransac } from './pages/Cransac';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path:"/livredor",
     element: <LivreDor/>
+  },
+  {
+    path:"/cransac",
+    element: <Cransac/>
   },
   {
     path:"/bournazel",
