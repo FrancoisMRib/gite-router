@@ -10,6 +10,7 @@ import { Localisation } from './pages/Localisation';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Bournazel } from './pages/Bournazel';
 import { Cransac } from './pages/Cransac';
+import { Rodez } from './pages/Rodez';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path:"/cransac",
     element: <Cransac/>
+  },
+  {
+    path:"/rodez",
+    element: <Rodez/>
   },
   {
     path:"/bournazel",

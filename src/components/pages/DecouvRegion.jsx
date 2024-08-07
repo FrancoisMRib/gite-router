@@ -21,7 +21,7 @@ export function DecReg() {
             <div className='panel'>
                 <a href="bournazel"><img src="src/components/img/bournazel.jpg" alt="Le château de Bournazel" className='window'/></a>
                 <a href="cransac"><img src={thermes} alt="Les thermes de Cransac" className='window'/></a>
-                <img src="src/components/img/Rodez.jpg" alt="La ville de Rodez" className='window'/>
+                <a href="rodez"><img src="src/components/img/Rodez.jpg" alt="La ville de Rodez" className='window'/></a>
                 <img src="src/components/img/Belcastel.png" alt="Le village de Belcastel" className='window'/>
             </div>
             <div className='panel'>
