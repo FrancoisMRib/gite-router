@@ -1,5 +1,6 @@
 import {Header} from '../Header';
 import {Footer} from '../Footer';
+import './Bournazel.css';
 
 export function Rodez() {
     return (

@@ -11,6 +11,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Bournazel } from './pages/Bournazel';
 import { Cransac } from './pages/Cransac';
 import { Rodez } from './pages/Rodez';
+import { Belcastel } from './pages/Belcastel';
+import { Flagnac } from './pages/Flagnac';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -45,8 +47,16 @@ const router = createBrowserRouter([
     element: <Cransac/>
   },
   {
+    path:"/belcastel",
+    element: <Belcastel/>
+  },
+  {
     path:"/rodez",
     element: <Rodez/>
+  },
+  {
+    path:"/flagnac",
+    element: <Flagnac/>
   },
   {
     path:"/bournazel",

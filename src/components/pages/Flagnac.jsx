@@ -2,22 +2,22 @@ import {Header} from '../Header';
 import {Footer} from '../Footer';
 import './Bournazel.css';
 
-export function Bournazel() {
+export function Flagnac() {
     return (
         <div>
             <Header/>
-            <h2 className='title'>Le château de Bournazel</h2>
+            <h2 className='title'>Le festival de Flagnac</h2>
             <button>
                 <a href="region">Retour</a>
             </button>
             <div className='office'>
                 <div >
-                    <img src="src/components/img/bournazel.jpg" alt="" className='photo'/>
+                    <img src="src/components/img/Flagnac.jpg" alt="" className='photo'/>
                 </div>
                 <div className='descriptif'>
-                    <h4>Le château de Bournazel</h4>
+                    <h4>Le festival de Flagnac</h4>
                     <br />
-                    <p> Le château de Bournazel, bla bla bla ... </p>
+                    <p>Venez découvrir le féérique festival de Flagnac !</p>
                 </div>
             </div>
             <Footer/>

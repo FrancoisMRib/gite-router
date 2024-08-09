@@ -2,22 +2,22 @@ import {Header} from '../Header';
 import {Footer} from '../Footer';
 import './Bournazel.css';
 
-export function Bournazel() {
+export function Belcastel() {
     return (
         <div>
             <Header/>
-            <h2 className='title'>Le château de Bournazel</h2>
+            <h2 className='title'>Le village de Belcastel</h2>
             <button>
                 <a href="region">Retour</a>
             </button>
             <div className='office'>
                 <div >
-                    <img src="src/components/img/bournazel.jpg" alt="" className='photo'/>
+                    <img src="src/components/img/Belcastel.png" alt="" className='photo'/>
                 </div>
                 <div className='descriptif'>
-                    <h4>Le château de Bournazel</h4>
+                    <h4>Le village de Belcastel</h4>
                     <br />
-                    <p> Le château de Bournazel, bla bla bla ... </p>
+                    <p>Connu pour son inoubliable cuisine locale, le village de Belcastel, bla bla bla ... </p>
                 </div>
             </div>
             <Footer/>
