@@ -13,6 +13,9 @@ import { Cransac } from './pages/Cransac';
 import { Rodez } from './pages/Rodez';
 import { Belcastel } from './pages/Belcastel';
 import { Flagnac } from './pages/Flagnac';
+import { Decazeville } from './pages/Decazeville';
+import { Conques } from './pages/Conques';
+import { Rocamadour } from './pages/Rocamadour';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -57,6 +60,18 @@ const router = createBrowserRouter([
   {
     path:"/flagnac",
     element: <Flagnac/>
+  },
+  {
+    path:"/rocamadour",
+    element: <Rocamadour/>
+  },
+  {
+    path:"/decazeville",
+    element: <Decazeville/>
+  },
+  {
+    path:"/conques",
+    element: <Conques/>
   },
   {
     path:"/bournazel",
