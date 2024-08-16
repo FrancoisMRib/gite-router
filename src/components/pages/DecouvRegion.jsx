@@ -7,7 +7,7 @@ export function DecReg() {
     return (
         <div>
             <Header/>
-            <div className='underline'>
+            {/* <div className='underline'> */}
             <h2 className='title'>Découvrez la région aux alentours !</h2>
 
                 <h4>
@@ -16,7 +16,7 @@ export function DecReg() {
                 <div className='background'>
                     <p>Cliquez sur une image pour en savoir plus</p>
                 </div>
-            </div>
+            {/* </div> */}
             <br/>
             <div className='panel'>
                 <a href="bournazel"><img src="src/components/img/bournazel.jpg" alt="Le château de Bournazel" className='window'/></a>
