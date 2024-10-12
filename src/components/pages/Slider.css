@@ -1,3 +1,15 @@
+.carousel .control-prev, .carousel .control-next {
+    background: none; /* Supprime le fond gris des flèches */
+    /* opacity: 1;  */
+    /* Rendre les flèches visibles sans opacité */
+}
+
+.carousel .control-prev:hover, .carousel .control-next:hover {
+    background: none; /* Empêche le fond gris au survol */
+    opacity: 1; 
+    /* Garde la visibilité */
+}
+
 .carousel .thumbs {
     display:flex;
     justify-content: baseline;
@@ -22,5 +34,6 @@
 
 .defil{
     width: 70%;
+    height: auto;
     margin-left: 0px;
 }

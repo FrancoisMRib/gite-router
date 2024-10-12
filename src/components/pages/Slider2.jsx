@@ -88,14 +88,15 @@ export function Slider2() {
         <Carousel className="defil"
             // autoPlay
             infiniteLoop
+            showStatus={false} // désactive la numérotation
 
         >
             {images.map(slide => (
           <div key={slide.id} className="">
             <img src={slide.image} alt="" className="frame"/>
-            {/* <div className="overlay">
+            <div className="overlay">
                 <p className="overlay_text">{slide.text}</p>
-            </div> */}
+            </div>
           </div>
         ))}
         </Carousel>

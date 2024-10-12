@@ -1,5 +1,7 @@
 // import { Header } from './Header';
 // import { Footer } from './Footer';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 import { LivreDor } from './pages/LivreDor';
 import { Accueil } from './pages/Accueil';
 import { DecReg } from './pages/DecouvRegion';
@@ -7,7 +9,6 @@ import { Reservation } from './pages/Reservation';
 import { DecouvGite } from './pages/DecouvGite';
 import { Contact } from './pages/Contact';
 import { Localisation } from './pages/Localisation';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Bournazel } from './pages/Bournazel';
 import { Cransac } from './pages/Cransac';
 import { Rodez } from './pages/Rodez';

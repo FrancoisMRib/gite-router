@@ -38,13 +38,16 @@ export function Slider() {
         <Carousel className="defil"
             // autoPlay
             infiniteLoop
+            showStatus={false} // désactive la numérotation
+            showArrows={true}   // Garde les flèches si tu le souhaites
+
         >
             {images.map(slide => (
           <div key={slide.id} className="frame">
             <img src={slide.image} alt="" />
-            {/* <div className="overlay">
+            <div className="overlay">
                 <p className="overlay_text">{slide.text}</p>
-            </div> */}
+            </div>
           </div>
         ))}
         </Carousel>

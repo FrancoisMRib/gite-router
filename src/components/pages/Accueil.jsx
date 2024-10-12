@@ -14,7 +14,9 @@ export function Accueil() {
                     display:'flex',
                     flex:'row'
                 }}>
-                    <Slider/>
+                    <div className='tourneur'>
+                        <Slider/>
+                    </div>
             {/* <div>
                 <img src="src/components/img/IMG_20190803_162256.jpg" alt="" className='carrousel'/>
                 <p>les vignes auxquelles le gîte doit son nom</p>
@@ -36,7 +38,7 @@ export function Accueil() {
                 Nous espérons que vous passerez un séjour des plus
                 agréables et que vous vous sentirez comme chez vous !</p>
             </div>
-            <button className="buttonValid">Organiser une réservation</button>
+            <button to={`/reservations`} className="buttonValid">Organiser une réservation</button>
             </div>
             </div>
             <Footer/>

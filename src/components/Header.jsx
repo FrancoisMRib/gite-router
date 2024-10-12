@@ -6,7 +6,7 @@ import './Header.css';
 export function Header() {
     return (
         <div className="Header">
-            <img src={HeaderImg} alt='HeaderImg' className="photo"/>
+            <img src={HeaderImg} alt='HeaderImg' className="robert"/>
         
                 <div className="HeaderContain">
                     {/* <a href="/" className="écrits">Accueil</a>

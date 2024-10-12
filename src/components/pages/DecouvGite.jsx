@@ -12,7 +12,10 @@ export function DecouvGite () {
             display:'flex',
             flex:'row'
         }}>
-                <Slider2 />
+                <div className="tournis">
+                  <Slider2 />  
+                </div>
+                
              
             <div className='corpus'>
                 <div className='presentation'>

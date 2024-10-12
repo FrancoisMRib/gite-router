@@ -6,7 +6,8 @@
 
 .frame {
     border-radius: 50%;
-    padding-left: 25px;
+    /* padding-left: 2%; */
+    /* padding-right: 5px; */
     padding-top: 25px;
 
     /* width: 400px;
