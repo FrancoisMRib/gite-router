@@ -1,22 +1,26 @@
-.carousel .control-prev, .carousel .control-next {
-    background: none; /* Supprime le fond gris des flèches */
-    /* opacity: 1;  */
-    /* Rendre les flèches visibles sans opacité */
+.carousel .control-prev.control-arrow,
+.carousel .control-next.control-arrow {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
 }
-
-.carousel .control-prev:hover, .carousel .control-next:hover {
-    background: none; /* Empêche le fond gris au survol */
-    opacity: 1; 
-    /* Garde la visibilité */
+  
+.carousel-arrow:hover {
+    background-color: transparent; /* Optionnel : retirer toute couleur */
 }
 
 .carousel .thumbs {
     display:flex;
     justify-content: baseline;
-    margin: 0;
+    margin: 0 5px;
+    object-fit: contain;
+    width: auto;
 }
 
 .frame {
+    width: 100%; /* Assure-toi que l'image prend tout l'espace du parent */
+    height: auto;
+    object-fit: cover; /* Garde le bon ratio des images */
     border-radius: 50%;
     /* padding-left: 2%; */
     /* padding-right: 5px; */

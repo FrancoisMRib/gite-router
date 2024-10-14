@@ -12,8 +12,8 @@ export function Contact () {
                 <h4 className='h4'>Contactez-nous de préférence par mail</h4>
             </div>
             <div className='agencement'>
-                <div className='carton'>
-                    <p>Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
+                <div className='cartounet'>
+                    <p className='bulle'>Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
                         tenu compte du calendrier et des disponibilités. 
                         Les locations peuvent aller de trois jours à plusieurs semaines. 
                         Ecrivez-nous et nous en parlerons !</p>

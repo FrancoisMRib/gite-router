@@ -4,6 +4,7 @@ import {Header} from '../Header';
 import {Footer} from '../Footer';
 import './Accueil.css';
 import {Slider} from './Slider';
+import { Link } from 'react-router-dom';
 
 export function Accueil() {
     return (
@@ -38,7 +39,9 @@ export function Accueil() {
                 Nous espérons que vous passerez un séjour des plus
                 agréables et que vous vous sentirez comme chez vous !</p>
             </div>
-            <button to={`/reservations`} className="buttonValid">Organiser une réservation</button>
+            <button className="buttonValid">
+                    <Link to={`/reservations`} className='coloring'>Organiser une réservation</Link>
+            </button>
             </div>
             </div>
             <Footer/>

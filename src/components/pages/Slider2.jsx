@@ -89,10 +89,11 @@ export function Slider2() {
             // autoPlay
             infiniteLoop
             showStatus={false} // désactive la numérotation
+            showIndicators={false} // désactive les indicateurs
 
         >
             {images.map(slide => (
-          <div key={slide.id} className="">
+          <div key={slide.id} >
             <img src={slide.image} alt="" className="frame"/>
             <div className="overlay">
                 <p className="overlay_text">{slide.text}</p>

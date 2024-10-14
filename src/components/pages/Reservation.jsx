@@ -1,5 +1,6 @@
 import {Header} from '../Header';
 import {Footer} from '../Footer';
+import { Link } from 'react-router-dom';
 import './Reservation.css';
 
 export function Reservation() {
@@ -20,8 +21,12 @@ export function Reservation() {
             </div>
            </div>
            <div className='decal'>
-            <button className='selection'>Voir les avis de nos anciens clients</button>
-            <button className='selection'>Agrandir la carte</button>
+            <button className='selection'>
+                <Link to={"/livredor"}>Voir les avis de nos anciens clients</Link>
+            </button>
+            <button className='selection'>
+                <Link>Agrandir la carte</Link>
+            </button>
            </div>
            <Footer/>
         </div>
