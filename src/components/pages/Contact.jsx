@@ -12,11 +12,15 @@ export function Contact () {
                 <h4 className='h4'>Contactez-nous de préférence par mail</h4>
             </div>
             <div className='agencement'>
-                <div className='cartounet'>
-                    <p className='bulle'>Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
+                <div className='carton'>
+                    <p className='bulle'>
+                        <b>
+                        Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
                         tenu compte du calendrier et des disponibilités. 
                         Les locations peuvent aller de trois jours à plusieurs semaines. 
-                        Ecrivez-nous et nous en parlerons !</p>
+                        Ecrivez-nous et nous en parlerons !
+                        </b>
+                    </p>
                     <p>Myriam Zidel-Cauffet</p>
                     {/* <div>
                         <p>     Contactez-nous par mail afin de pouvoir réserver au plus vite, en</p>
@@ -25,7 +29,7 @@ export function Contact () {
                         <p>mobiliser plusieurs chambres. Ecrivez-nous et nous en parlerons ! </p>
                         <p>Myriam Zidel-Cauffet</p>
                     </div> */}
-                    <img src="src/components/img/ext3.jpg" alt="" className='map'/>
+                    <img src="src/components/img/ext3.jpg" alt="" className='mapen'/>
                 </div>
                 <div className='title2'>
                     {/* <div className='place'></div> */}

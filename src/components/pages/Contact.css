@@ -32,16 +32,17 @@
 
 }
 
-.cartounet{
+.carton{
     width: 50%;
+    height: 10%;
 }
 
-.map{
-    width: 40%;
+.mapen {
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 
 .place{
@@ -60,5 +61,6 @@
 .bulle {
     margin-left: 15%;
     margin-right: 12%;
+    margin-top: 0px;
     text-align: center;
 }
