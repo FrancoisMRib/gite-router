@@ -31,7 +31,7 @@
 }
 
 .text{
-    padding-top: 50px;
+    padding-top: 10%;
     padding-left: 10px;
     display: flex;
     align-items: center;
@@ -47,13 +47,38 @@
     
     background-color: #f5f5f5;
     font-family: "Indenture English Penman";
+    font-size: clamp(14px, 2vw, 18px); /* Ajuste la taille du texte de manière réactive */
+    display: flex; /* Flexbox pour centrer le texte */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    text-align: center; /* Aligne le texte au centre */
     /* padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px; */
     padding: 10%;
+    margin-top: 0%;
     margin-right: 8px;
     margin-bottom: 12px;
+    height: 300px;
+    width: 300px; /* Ajout d'une largeur pour stabiliser la forme */
+    border-radius: 60%; /* Cercle parfait si la largeur et la hauteur sont égales */
+    overflow: hidden; /* Coupe le contenu qui dépasse */
+    /* border-radius: 60%; */
+    /* line-height: 1.5; */
+}
+
+.presentationneur {
+    background-color: #f5f5f5;
+    font-family: "Indenture English Penman";
+    font-size: 19px;
+    margin-top: 0%;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    display: flex; /* Flexbox pour centrer le texte */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    text-align: center; /* Aligne le texte au centre */
     border-radius: 60%;
 }
 

@@ -11,9 +11,33 @@
 }
 
 .photo {
-    width: 600px;
+    width: 700px;
+    height: auto;
+    padding: 30px
 }
 
 .descriptif {
     width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.push {
+    background-color: #c54839;
+    margin: 3px;
+}
+
+.pusher {
+    color: #F5f5f5;
+}
+
+.pushed {
+    background-color: #c54839;
+    margin: 3px;
+}
+
+.metteur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -17,6 +17,8 @@ import { Flagnac } from './pages/Flagnac';
 import { Decazeville } from './pages/Decazeville';
 import { Conques } from './pages/Conques';
 import { Rocamadour } from './pages/Rocamadour';
+import { AdminPricing } from './pages/AdminPrice';
+import { PublicPricing } from './pages/PublicPricing';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -73,6 +75,14 @@ const router = createBrowserRouter([
   {
     path:"/conques",
     element: <Conques/>
+  },
+  {
+    path:"/admin",
+    element: <AdminPricing/>
+  },
+  {
+    path:"/public",
+    element: <PublicPricing/>
   },
   {
     path:"/bournazel",

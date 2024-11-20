@@ -27,18 +27,19 @@ export function Accueil() {
                 <p>Les terrasses paysagères</p>
             </div> */}
             <div className='text'>
-                <div className='carton'>
+                <div className='presentationneur'>
                 {/* <p>Bienvenue au Gîte la Vigne !</p><br></br> */}
                 {/* <p>Nous sommes heureux de vous accueillir au sein de</p>
                 <p>notre établissement confortable et authentique. Nous</p>
                 <p>espérons que vous passerez un séjour des plus</p>
                 <p>agréables et que vous vous sentirez comme chez vous !</p> */}
-
-                <p>Nous sommes heureux de vous accueillir au sein de
+                
+                <p>Nous sommes heureux de<br /> vous accueillir au sein de
                 notre établissement confortable et authentique.
                 Nous espérons que vous passerez un séjour des plus
-                agréables et que vous vous sentirez comme chez vous !</p>
-            </div>
+                agréables<br /> et que vous vous sentirez<br /> comme chez vous !</p>
+                
+                </div>
             <button className="buttonValid">
                     <Link to={`/reservations`} className='coloring'>Organiser une réservation</Link>
             </button>
