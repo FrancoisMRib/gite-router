@@ -2,6 +2,7 @@ import {Header} from '../Header';
 import {Footer} from '../Footer';
 import { Link } from 'react-router-dom';
 import './Reservation.css';
+import { ReactTable } from '../Table';
 
 export function Reservation() {
     return (
@@ -14,6 +15,7 @@ export function Reservation() {
            <div className='panel'>
             <div className='zonegauche'>
                 <p>Réservez en fonction des disponibilités du gîte...</p>
+                <ReactTable/>
             </div>
             <div className='zonedroite'>
                 <p>... et rendez-vous y !</p>
