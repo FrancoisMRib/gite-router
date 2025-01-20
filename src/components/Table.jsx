@@ -2,6 +2,8 @@ import React from "react";
 import "./Table.css"
 
 export function ReactTable() {
+    //Rajouter {data} au-dessus si besoin
+  //En suspens
     const data=[
       {
         fname:"aaa",
@@ -18,7 +20,7 @@ export function ReactTable() {
     ]
 
     return (
-      <div>
+      <div className="positif">
         <table className="table">
           <thead>
             <tr>

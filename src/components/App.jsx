@@ -1,7 +1,7 @@
 // import { Header } from './Header';
 // import { Footer } from './Footer';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
+import { useState } from 'react';
 import { LivreDor } from './pages/LivreDor';
 import { Accueil } from './pages/Accueil';
 import { DecReg } from './pages/DecouvRegion';
@@ -17,8 +17,9 @@ import { Flagnac } from './pages/Flagnac';
 import { Decazeville } from './pages/Decazeville';
 import { Conques } from './pages/Conques';
 import { Rocamadour } from './pages/Rocamadour';
-import { AdminPricing } from './pages/AdminPrice';
-import { PublicPricing } from './pages/PublicPricing';
+import { Map } from './pages/Map_big';
+
+import { Edit } from './pages/Edit';
 // import './App.css'
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
     element: <Flagnac/>
   },
   {
+    path:"/map",
+    element: <Map/>
+  },
+  {
     path:"/rocamadour",
     element: <Rocamadour/>
   },
@@ -77,12 +82,8 @@ const router = createBrowserRouter([
     element: <Conques/>
   },
   {
-    path:"/admin",
-    element: <AdminPricing/>
-  },
-  {
-    path:"/public",
-    element: <PublicPricing/>
+    path:"/mimi",
+    element: <Edit/>
   },
   {
     path:"/bournazel",
@@ -92,6 +93,13 @@ const router = createBrowserRouter([
 
 
 export function App() {
+
+  //Partie rajoutée pour la fonctionnabilité du tableau
+  // const [data, setData] = useState([
+  //   { fname: "aaa", lname: "bbb" },
+  //   { fname: "ccc", lname: "ddd" },
+  //   { fname: "eee", lname: "fff" },
+  // ]);
 
   return (
         <RouterProvider router={router} />

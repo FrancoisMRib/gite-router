@@ -2,6 +2,7 @@ import {Header} from '../Header';
 import {Footer} from '../Footer';
 import './DecouvGite.css';
 import { Slider2 } from './Slider2';
+import { Link } from 'react-router-dom';
 
 export function DecouvGite () {
     return (
@@ -46,10 +47,14 @@ Accès internet<br></br>
         <p>
 
         </p>
-            <button className='button'>Découvrir les avis de nos anciens vacanciers</button>
+            <button className='button'>
+                <Link to={"/livredor"} className='pusherred'>Découvrir les avis de nos anciens vacanciers</Link>
+            </button>
             <br>
             </br>
-            <button className='button'>Découvrez comment rejoindre le gîte</button>
+            <button className='button'>
+                <Link to={"/reservations"} className='pusherred'>Découvrez comment rejoindre le gîte</Link>
+            </button>
             </div>
             </div>
             <Footer/>

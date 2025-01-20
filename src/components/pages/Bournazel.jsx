@@ -9,7 +9,7 @@ export function Bournazel() {
             <Header/>
             <h2 className='title'>Le château de Bournazel</h2>
             <button className='push'>
-                <a href="region">Retour</a>
+                <a href="region" className='pusher'>Retour</a>
             </button>
             <div className='office'>
                 <div >

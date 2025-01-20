@@ -9,7 +9,7 @@ export function Rodez() {
             <Header/>
             <h2 className='title'>La ville de Rodez</h2>
             <button className='push'>
-                <a href="region">Retour</a>
+                <a href="region" className='pusher'>Retour</a>
             </button>
             <div className='office'>
                 <div >

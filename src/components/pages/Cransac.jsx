@@ -9,7 +9,7 @@ export function Cransac() {
             <Header/>
             <h2 className='title'>Les termes de Cransac</h2>
             <button className='push'>
-                <a href="region">Retour</a>
+                <a href="region" className='pusher'>Retour</a>
             </button>
             <div className='office'>
                 <div >
