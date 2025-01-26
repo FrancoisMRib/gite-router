@@ -18,6 +18,7 @@ import { Decazeville } from './pages/Decazeville';
 import { Conques } from './pages/Conques';
 import { Rocamadour } from './pages/Rocamadour';
 import { Map } from './pages/Map_big';
+import { Stuff } from './FooterStuff';
 
 import { Edit } from './pages/Edit';
 // import './App.css'
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
   {
     path:"/mimi",
     element: <Edit/>
+  },
+  {
+    path:"/stuff",
+    element: <Stuff/>
   },
   {
     path:"/bournazel",

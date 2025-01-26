@@ -1,6 +1,7 @@
 import './Footer.css';
 //METTRE En-dessous la source du fichier audio quand je l'aurais
 //import sound from "";
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 export function Footer() {
@@ -30,18 +31,18 @@ export function Footer() {
             </div>
             <div id="footerOptions">
                 <div>
-                    <p>Protection des données</p>
-                    <p>Politique des cookies</p>
+                    <p><Link to={'/stuff'} className='pusher'>Protection des données</Link></p>
+                    <p><Link to={'/stuff'} className='pusher'>Politique des cookies</Link></p>
                 </div>
                 <div className="footerPipe" />
                 <div>
-                    <p>Conditions générales</p>
-                    <p>Mentions légales</p>
+                    <p><Link to={'/stuff'} className='pusher'>Conditions générales</Link></p>
+                    <p><Link to={'/stuff'} className='pusher'>Mentions légales</Link></p>
                 </div>
                 <div className="footerPipe" />
                 <div>
-                    <p>Langue</p>
-                    <p>Accessibilité</p>
+                    <p><Link to={'/stuff'} className='pusher'>Langue</Link></p>
+                    <p><Link to={'/stuff'} className='pusher'>Accessibilité</Link></p>
                 </div>
             </div>
             {/* <div className='music'>
