@@ -35,6 +35,8 @@
 .carton{
     width: 50%;
     height: 10%;
+    display: flex;
+    flex-direction: column;
 }
 
 .mapen {
@@ -50,7 +52,9 @@
 }
 
 .middleonpos{
-    height: 50%;
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 30%;
 }
 
 .h4{

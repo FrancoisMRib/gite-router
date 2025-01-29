@@ -3,6 +3,7 @@ import {Footer} from '../Footer';
 import { Link, useNavigate } from 'react-router-dom';
 import './Reservation.css';
 import { ReactTable } from '../Table';
+import { ReactTablette } from '../Table2';
 
 //Nouvelle version en cours d'élaboration
 // export function Reservation({ data, setData }) {
@@ -61,6 +62,8 @@ export function Reservation() {
             <div className='zonegauche'>
                 <p>Réservez en fonction des disponibilités du gîte...</p>
                 <ReactTable/>
+                <p>... vérifiez la période ...</p>
+                <ReactTablette/>
             </div>
             <div className='zonedroite'>
                 <p>... et rendez-vous y !</p>

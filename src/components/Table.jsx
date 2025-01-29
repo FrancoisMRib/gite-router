@@ -6,16 +6,19 @@ export function ReactTable() {
   //En suspens
     const data=[
       {
-        fname:"aaa",
-        lname:"bbb"
+        period:"Basse saison",
+        week:"390 €",
+        day:"51 €"
       },
       {
-        fname:"ccc",
-        lname:"ddd"
+        period:"Moyenne saison",
+        week:"400 €",
+        day:"52 €"
       },
       {
-        fname:"eee",
-        lname:"fff"
+        period:"Haute saison",
+        week:"490 €",
+        day:"63 €"
       },
     ]
 
@@ -24,16 +27,18 @@ export function ReactTable() {
         <table className="table">
           <thead>
             <tr>
-              <th className="th">First Name</th>
-              <th className="th">Last Name</th>
+              <th className="th">Type de forfait / Durée</th>
+              <th className="th">Par semaine</th>
+              <th className="th">Par nuit</th>
             </tr>
           </thead>
           <tbody>
             {
               data.map((val,i)=>
                 <tr>
-                  <td className="td">{val.fname}</td>
-                  <td className="td">{val.lname}</td>
+                  <td className="td">{val.period}</td>
+                  <td className="td">{val.week}</td>
+                  <td className="td">{val.day}</td>
                 </tr>
               )
             }

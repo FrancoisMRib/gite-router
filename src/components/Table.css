@@ -8,6 +8,16 @@
     border-collapse: collapse; /* Pour supprimer les espaces entre les bordures des cellules */
 }
 
+.tablette{
+    width: 400px;
+    height: 100px;
+    border: 1px solid ;
+    text-align: center;
+    align-items: center;
+    background-color: none;
+    border-collapse: collapse; /* Pour supprimer les espaces entre les bordures des cellules */
+}
+
 .th{
     border: 3px solid black ;
     color: black;
@@ -18,7 +28,27 @@
     color: black;
 }
 
+.ther{
+    border: 1px solid white ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.tder{
+    border: 1px solid white ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
 .positif {
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+.persevy {
     display: flex; /* Utilisation de flexbox */
     justify-content: center; /* Centre horizontalement */
     align-items: center; /* Centre verticalement */
