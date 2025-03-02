@@ -10,27 +10,29 @@ export function Slider() {
         {
             id:1,
             image:'src/components/img/ext1.jpg',
-            text:"La vue sur le gîte depuis les terrasses où vous pourrez garer vos voitures"
+            text:"La vue sur le Gîte depuis les Terrasses où vous pourrez garer vos voitures"
         },
         {
             id:2,
             image:'src/components/img/ext2.jpg',
-            text:"Les vignes auxquelles le gîte doit son nom"
+            text:"La Vigne à laquelle le Gîte doit son nom"
         },
         {
             id:3,
             image:'src/components/img/ext3.jpg',
-            text:"Un belle fleur que vous apercevrez sur nos terrases paysagères !"
+            text:"Belles Agapantes que vous apercevrez"
         },
         {
             id:4,
             image:'src/components/img/ext4.jpg',
-            text:"Les terrasses paysagères agrémentant les 36 marches vous conduiront au gîte"
+            text:"Terrasses Paysagères"
+            // text:"Les terrasses paysagères agrémentant les 36 marches vous conduiront au gîte"
+
         },
         {
             id:5,
             image:'src/components/img/ext5.jpg',
-            text:"Le chemin que vous aurez à emprunter pour accéder aux terrasses"
+            text:"Le Chemin qui vous amène au Gîte"
         },
     ];
 

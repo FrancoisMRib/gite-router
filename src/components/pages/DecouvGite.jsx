@@ -23,22 +23,23 @@ export function DecouvGite () {
                 <p>A Firmi, en bordure du bourg, nous vous accueillerons
                 dans une maison indépendante sur deux niveaux, 
                 proche de la résidence secondaire du propriétaire.</p>
-                <p>36 marchant longeant un jardin paysager vous mèneront
+                <p>36 marches longeant un jardin paysager vous mèneront
                 au gîte depuis le parking.</p>
                 <p>A la belle saison, vous aurez le plaisir de profiter des deux 
-                terrasses ouvertes (16m² et 32m²) et d’un mobilier de jardin.</p>
+                terrasses ouvertes (32m² et 16m²) et d’un mobilier de jardin.</p>
 
                 </div>
         <h3>
-        Equipement général : 
+        Equipement et services : 
         </h3>
-        <p>Fourni :</p>
+        {/* <p>Fourni :</p> */}
         {/* <p className='list'> */}
             <p>
 
 Chauffage central au gaz<br></br>
-Electricité<br></br>
+Lave-linge<br></br>
 Lave-vaisselle<br></br>
+Lits faits à l'arrivée<br></br>
 Linge de maison<br></br>
 Equipement bébé<br></br>
 Accès internet<br></br>
@@ -48,7 +49,7 @@ Accès internet<br></br>
 
         </p>
             <button className='button'>
-                <Link to={"/livredor"} className='pusherred'>Découvrir les avis de nos anciens vacanciers</Link>
+                <Link to={"/livredor"} className='pusherred'>Découvrir les Avis de nos anciens Vacanciers</Link>
             </button>
             <br>
             </br>

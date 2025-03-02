@@ -15,13 +15,12 @@ export function Contact () {
                 <div className='carton'>
                     <p>
                         <b>
-                        Contactez-nous par mail afin de pouvoir réserver au plus vite, en ayant au préalable 
-                        tenu compte du calendrier et des disponibilités. 
-                        Les locations peuvent aller de trois jours à plusieurs semaines. 
-                        Ecrivez-nous et nous en parlerons !
+                        Contactez-nous par Mail ou par Téléphone afin de pouvoir Réserver au plus vite ! <br />
+                        Les locations peuvent aller de trois jours à plusieurs semaines. <br />
+                        Contactez-nous et nous en parlerons !
                         </b>
                     </p>
-                    <p>Myriam Zidel-Cauffet</p>
+                    <p className='issi'>Myriam Zidel-Cauffet</p>
                     {/* <div>
                         <p>     Contactez-nous par mail afin de pouvoir réserver au plus vite, en</p>
                         <p>ayant au préalable tenu compte du calendrier et des chambres disponibles.</p>
@@ -38,7 +37,7 @@ export function Contact () {
                         <p className=''>Mail</p>
                         <p className='inter'>myriam.zidel@yahoo.fr</p>
                         <p className=''>Adresse</p>
-                        <p className='inter'>Chemin de la Peyre - 12300 Firmi</p>
+                        <p className='inter'>Rue de la Peyre - 12300 Firmi</p>
                         <p>Téléphone</p>
                         <p className='inter'>06-07-90-75-58</p>
                     </div>

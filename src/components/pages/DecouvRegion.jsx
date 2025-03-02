@@ -8,11 +8,11 @@ export function DecReg() {
         <div>
             <Header/>
             <div className='underline'>
-            <h2 className='title'>Découvrez la région aux alentours !</h2>
+            <h2 className='title'>Découverte de la Région</h2>
 
-                <h4>
+                {/* <h4>
                     Qu'aimeriez-vous voir dans la région ?
-                </h4>
+                </h4> */}
                 <div className='background'>
                     <p>Cliquez sur une image pour en savoir plus</p>
                 </div>

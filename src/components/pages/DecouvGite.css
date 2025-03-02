@@ -35,6 +35,9 @@
     margin-bottom: 10px;
     border-radius: 90%;
     color: brown;
+    background-color: rgb(244, 193, 162);
+    /* stroke: black;
+    stroke-width: 10px; */
 }
 /* .essai {
     background-color: aqua;
@@ -50,11 +53,11 @@
 .presentation{
     border-radius: 30%;
     stroke: #f5f5f5;
-    background-color: #f5f5f5;
-    color: black;
+    background-color: rgb(244, 193, 162);
+    color: brown;
     margin: 15px;
     padding: 20px;
-    font-size: small;
+    font-size: medium;
 }
 
 .tournis {

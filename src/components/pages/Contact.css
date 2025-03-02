@@ -68,3 +68,9 @@
     margin-top: 0px;
     text-align: center;
 }
+
+.issi {
+    display: flex;
+    /* align-content:  */
+    font-weight: bold;
+}

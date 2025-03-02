@@ -19,7 +19,7 @@ export function Flagnac() {
                     <h4>Le festival de Flagnac</h4>
                     {/* <br /> */}
                     <p>
-                    « Hier, un village » est un spectacle son et lumière qui retrace depuis plus de 40 ans la vie d’un village rouergat dans les années 1920/1930, avant que le monde ne bascule dans le monde moderne.
+                    <b>« Hier, un village »</b> est un spectacle son et lumière qui retrace depuis plus de 40 ans la vie d’un village rouergat dans les années 1920/1930, avant que le monde ne bascule dans le monde moderne.
 
 Les 250 figurants, à travers différents tableaux redonnent vie à ce bourg et à ses habitants. Les effets de lumière, la musique et la mise en mouvement de décors transportent le spectateur dans cette époque révolue lorsque la vie était rythmée par les saisons et le travail de la terre.  
 
